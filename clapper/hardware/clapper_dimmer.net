@@ -1,0 +1,338 @@
+# EESchema Netlist Version 1.1 created  Sa 18 Feb 2012 13:32:47 CET
+(
+ ( /4F3E57E0 $noname  D2 8V {Lib=ZENER_SOT232}
+  (    1 GND )
+  (    3 N-000009 )
+ )
+ ( /4F2E1367 $noname  R6 500k {Lib=R}
+  (    1 N-000019 )
+  (    2 N-000006 )
+ )
+ ( /4F2DDE5D $noname  P3 CONNECTOR {Lib=CONNECTOR}
+  (    1 N-000017 )
+ )
+ ( /4F2DDE59 $noname  P2 CONNECTOR {Lib=CONNECTOR}
+  (    1 N-000015 )
+ )
+ ( /4F2DDE4B $noname  P1 CONNECTOR {Lib=CONNECTOR}
+  (    1 N-000022 )
+ )
+ ( /4F2DC531 $noname  R11 10k {Lib=R}
+  (    1 +5V )
+  (    2 N-000007 )
+ )
+ ( /4F2DC31A $noname  RV1 POT {Lib=POT}
+  (    1 GND )
+  (    2 N-000011 )
+  (    3 N-000007 )
+ )
+ ( /4F2DBC39 $noname  R9 1k {Lib=R}
+  (    1 N-000008 )
+  (    2 N-000013 )
+ )
+ ( /4F2DBC09 $noname  D3 DUOLED {Lib=LED}
+  (    1 N-000012 )
+  (    2 N-000008 )
+ )
+ ( /4F2DBAC2 $noname  R7 470 {Lib=R}
+  (    1 N-000010 )
+  (    2 N-000003 )
+ )
+ ( /4F2DB81B $noname  R12 10k {Lib=R}
+  (    1 +5V )
+  (    2 N-000024 )
+ )
+ ( /4F2DB79D $noname  SP1 SPEAKER {Lib=SPEAKER}
+  (    1 GND )
+  (    2 N-000024 )
+ )
+ ( /4F2DB4EA $noname  R10 330 {Lib=R}
+  (    1 N-000017 )
+  (    2 N-000004 )
+ )
+ ( /4F2DB469 $noname  U2 MOC_3020_SMD {Lib=OPTO-TRANSISTOR4}
+  (    1 N-000003 )
+  (    2 GND )
+  (    3 N-000018 )
+  (    4 N-000004 )
+ )
+ ( /4F2DB3CD $noname  R5 500k {Lib=R}
+  (    1 N-000006 )
+  (    2 N-000005 )
+ )
+ ( /4F2DB29D $noname  C6 100n {Lib=C}
+  (    1 +5V )
+  (    2 GND )
+ )
+ ( /4F2DB107 $noname  F1 0.5A {Lib=FUSE}
+  (    1 N-000015 )
+  (    2 N-000016 )
+ )
+ ( /4F2DB0E5 $noname  L1 2mH {Lib=INDUCTOR}
+  (    1 N-000016 )
+  (    2 N-000005 )
+ )
+ ( /4F2DB091 $noname  U3 BT137_600E {Lib=TRIAC}
+  (    1 N-000005 )
+  (    2 N-000017 )
+  (    3 N-000018 )
+ )
+ ( /4F2DB052 $noname  C1 150n {Lib=C}
+  (    1 N-000014 )
+  (    2 N-000021 )
+ )
+ ( /4F2DB027 $noname  R3 470k {Lib=R}
+  (    1 N-000014 )
+  (    2 N-000020 )
+ )
+ ( /4F2DB020 $noname  R2 470k {Lib=R}
+  (    1 N-000020 )
+  (    2 N-000021 )
+ )
+ ( /4F2DAFF6 $noname  R1 150 {Lib=R}
+  (    1 N-000021 )
+  (    2 N-000022 )
+ )
+ ( /4F2DAFC5 $noname  R4 150 {Lib=R}
+  (    1 N-000023 )
+  (    2 N-000005 )
+ )
+ ( /4F2DAF68 $noname  D1 B250C1500 {Lib=BRIDGE}
+  (    1 GND )
+  (    2 N-000023 )
+  (    3 N-000009 )
+  (    4 N-000014 )
+ )
+ ( /4F2DAEC6 $noname  C2 220u {Lib=CP1}
+  (    1 N-000009 )
+  (    2 GND )
+ )
+ ( /4F2DAE35 $noname  C4 100n {Lib=C}
+  (    1 +5V )
+  (    2 GND )
+ )
+ ( /4F2DAE1A $noname  C3 100n {Lib=C}
+  (    1 N-000009 )
+  (    2 GND )
+ )
+ ( /4F2DAC66 $noname  U1 78L05 {Lib=78L05}
+  (  GND GND )
+  (   VI N-000009 )
+  (   VO +5V )
+ )
+ ( /4F2DAB1F $noname  U4 ATTINY25-45-85/DIP-SO {Lib=ATTINY25-45-85/DIP-SO}
+  (    1 N-000010 )
+  (    2 N-000011 )
+  (    3 N-000024 )
+  (    4 GND )
+  (    5 N-000012 )
+  (    6 N-000013 )
+  (    7 N-000019 )
+  (    8 +5V )
+ )
+)
+*
+{ Allowed footprints by component:
+$component D2
+ D?
+ SO*
+ SM*
+$endlist
+$component R6
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R11
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R9
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component D3
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component R7
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R12
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R10
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R5
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component C6
+ SM*
+ C?
+ C1-1
+$endlist
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component R3
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+ R?-*
+$endlist
+$component C2
+ CP*
+ SM*
+$endlist
+$component C4
+ SM*
+ C?
+ C1-1
+$endlist
+$component C3
+ SM*
+ C?
+ C1-1
+$endlist
+$endfootprintlist
+}
+{ Pin List by Nets
+Net 1 "+5V" "+5V"
+ U1 VO
+ U4 8
+ R11 1
+ C6 1
+ C4 1
+ R12 1
+Net 2 "GND" "GND"
+ C2 2
+ C3 2
+ U1 GND
+ C4 2
+ U4 4
+ C6 2
+ D1 1
+ RV1 1
+ D2 1
+ SP1 1
+ U2 2
+Net 3 "" ""
+ U2 1
+ R7 2
+Net 4 "" ""
+ U2 4
+ R10 2
+Net 5 "" ""
+ U3 1
+ R4 2
+ R5 2
+ L1 2
+Net 6 "" ""
+ R5 1
+ R6 2
+Net 7 "" ""
+ RV1 3
+ R11 2
+Net 8 "" ""
+ R9 1
+ D3 2
+Net 9 "" ""
+ D2 3
+ C3 1
+ C2 1
+ D1 3
+ U1 VI
+Net 10 "" ""
+ U4 1
+ R7 1
+Net 11 "" ""
+ U4 2
+ RV1 2
+Net 12 "" ""
+ D3 1
+ U4 5
+Net 13 "" ""
+ U4 6
+ R9 2
+Net 14 "" ""
+ R3 1
+ D1 4
+ C1 1
+Net 15 "" ""
+ F1 1
+ P2 1
+Net 16 "" ""
+ L1 1
+ F1 2
+Net 17 "" ""
+ U3 2
+ R10 1
+ P3 1
+Net 18 "" ""
+ U3 3
+ U2 3
+Net 19 "" ""
+ R6 1
+ U4 7
+Net 20 "" ""
+ R2 1
+ R3 2
+Net 21 "" ""
+ R2 2
+ R1 1
+ C1 2
+Net 22 "" ""
+ P1 1
+ R1 2
+Net 23 "" ""
+ D1 2
+ R4 1
+Net 24 "" ""
+ SP1 2
+ R12 2
+ U4 3
+}
+#End

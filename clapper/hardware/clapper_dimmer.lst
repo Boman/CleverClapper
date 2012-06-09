@@ -1,0 +1,69 @@
+eeschema (2011-05-25)-stable  >> Creation date: Sa 18 Feb 2012 03:13:58 CET
+
+#Cmp ( order = Reference )
+| C1         150n        ; MP3-X2 150N 
+| C2         220u        ; VF 220/16 K-D8
+| C3         100n        ; X7R-G0603 100N
+| C4         100n        ; X7R-G0603 100N
+| C6         100n        ; X7R-G0603 100N
+| D1         B250C1500   ; B250C1500-W+W
+| D2         8V          ; SMD ZD 8,2  
+| D3         DUOLED      ; LED 5 RG    
+| F1         0.5A        
+| L1         2mH         
+| P1         CONNECTOR   
+| P2         CONNECTOR   
+| P3         CONNECTOR   
+| R1         150         ; SMD 1/4W 150
+| R2         470k        ; SMD-0603 470K
+| R3         470k        ; SMD-0603 470K
+| R4         150         ; SMD 1/4W 150
+| R5         500k        ; SMD-0603 470K
+| R6         500k        ; SMD-0603 470K
+| R7         470         ; SMD-0603 470
+| R9         1k          ; SMD-0603 1,0K
+| R10        330         ; SMD-0603 330
+| R11        10k         ; SMD-0603 10K
+| R12        10k         ; SMD-0603 10K
+| RV1        POT         
+| SP1        SPEAKER     
+| U1         78L05       ; µA 78L05   
+| U2         MOC 3020 SMD; MOC 3020 SMD
+| U3         BT137 600E  ; BT 137/600  
+| U4         ATTINY25-45-85/DIP-SO; ATTINY 85V-10 SU
+#End Cmp
+
+#Cmp ( order = Value )
+| 0.5A         F1        
+| 100n         C3        ; X7R-G0603 100N
+| 100n         C4        ; X7R-G0603 100N
+| 100n         C6        ; X7R-G0603 100N
+| 10k          R11       ; SMD-0603 10K
+| 10k          R12       ; SMD-0603 10K
+| 150          R1        ; SMD 1/4W 150
+| 150          R4        ; SMD 1/4W 150
+| 150n         C1        ; MP3-X2 150N 
+| 1k           R9        ; SMD-0603 1,0K
+| 220u         C2        ; VF 220/16 K-D8
+| 2mH          L1        
+| 330          R10       ; SMD-0603 330
+| 470          R7        ; SMD-0603 470
+| 470k         R2        ; SMD-0603 470K
+| 470k         R3        ; SMD-0603 470K
+| 500k         R5        ; SMD-0603 470K
+| 500k         R6        ; SMD-0603 470K
+| 78L05        U1        ; µA 78L05   
+| 8V           D2        ; SMD ZD 8,2  
+| ATTINY25-45-85/DIP-SO U4        ; ATTINY 85V-10 SU
+| B250C1500    D1        ; B250C1500-W+W
+| BT137 600E   U3        ; BT 137/600  
+| CONNECTOR    P1        
+| CONNECTOR    P2        
+| CONNECTOR    P3        
+| DUOLED       D3        ; LED 5 RG    
+| MOC 3020 SMD U2        ; MOC 3020 SMD
+| POT          RV1       
+| SPEAKER      SP1       
+#End Cmp
+
+#End List
